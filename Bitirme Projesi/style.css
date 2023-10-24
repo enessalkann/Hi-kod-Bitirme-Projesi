@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #24292d;
+}
+.container .btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #d7dde0;
+    color: #576972;
+    font-size: 30px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  .container .btn:hover {
+    background-color: #576972;
+    color: #d7dde0;
+    text-decoration: none;
+  }
+ 
+ img{
+    background-image: url(https://www.cumhuriyet.com.tr/Archive//2022/3/14/124319984-kitapkapak.jpg);
+    height: 40%;
+    width: 100%;
+} 
+.a{
+    color: #576972;
+    text-decoration: none;
+}
+h2{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    font-size: 100px;
+    font-style:normal ;
+}
+
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+  .box {
+    background-color: #576972;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+} 
+.box:hover{
+    background-color: #f6f8f9;
+    transition: 0.8s;
+}
+
+p{
+    color: #576972;
+}
+h3{
+    color: #f6f8f9;
+    font-weight: bold;
+}
